@@ -38,7 +38,7 @@ dependencies {
   runtimeOnly("org.flywaydb:flyway-database-postgresql")
 
   // SQS for OASys events
-  implementation("uk.gov.justice.service.hmpps:hmpps-sqs-spring-boot-starter:7.4.1")
+  implementation("uk.gov.justice.service.hmpps:hmpps-sqs-spring-boot-starter:7.6.0")
   implementation("com.fasterxml.jackson.datatype:jackson-datatype-jsr310")
   implementation("tools.jackson.core:jackson-databind")
 
